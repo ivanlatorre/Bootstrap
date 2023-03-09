@@ -19,10 +19,33 @@
     <!-- https://icon-icons.com/es/download/228661/PNG/128/ -->
 </head>
 <body>
-    
-
-
-
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-md navbar-light"><!-- navbar-expand-lg bg-body-tertiary x navbar-expand-md navbar-light -->
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"><!-- #navbarTogglerDemo01 x navbar-toggler el id tiene que coincidir -->
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler"><!-- id="navbarTogglerDemo01" x id="navbar-toggler -->
+            <a class="navbar-brand" href="#">
+                <img src="imagenes/argentina_flag_icon_228621.png" width="50" alt="logo">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center"><!--se quita me-auto mb-2 mb-lg-0 se agrega d-flex justify-content-center align-items-center-->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Sobre Mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Proyectos</a><!-- se agrega el href-->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Testimonios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
