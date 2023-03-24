@@ -1,4 +1,7 @@
-
+html{
+    font-size: 62.5%;
+    height: 100%;
+}
 /* Barra de navegacion */
 .navbar {
     padding: 2rem;
@@ -34,3 +37,5 @@ h1 {
         display: none;
     }
 }
+
+/* 2:51:19 google fonts*/
