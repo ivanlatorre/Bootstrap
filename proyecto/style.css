@@ -33,6 +33,11 @@ h1
     color: whitesmoke;
     background-color: #1b1b32;
 }
+.seccion-clara
+{
+    color: black;
+    background-color: #f5f6f7;
+}
 .seccion-titulo
 {
     font-size: 2rem;
@@ -42,7 +47,7 @@ h1
 .seccion-texto
 {
    font-size: 1.2rem;
-    
+
 }
 
 
@@ -82,6 +87,34 @@ h1
     text-align: center;
 
 }
+/* Experiencia */
+.experiencia
+{
+    padding: 40px 40px 60px 40px;/*superior izquierda abajo derecha*/
+}
+/*.experiencia .row div
+{
+    height: 250px;
+    background-color: purple;
+    border: 3px solid orange;
+}*//* borde de experiencia para marcar los bordes*/
+.experiencia i 
+{
+   font-size: 2.5rem;
+   color: #7ade30;
+   background-color: #0a0a23; 
+   padding: 8px 19px;
+   border-radius: 50%;
+}
+.experiencia-titulo
+{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+
+
 /* Adaptable (Responsivo) */
 
 /* menu navbar */
