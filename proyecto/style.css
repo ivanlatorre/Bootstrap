@@ -90,7 +90,7 @@ h1
 /* Experiencia */
 .experiencia
 {
-    padding: 40px 40px 60px 40px;/*superior izquierda abajo derecha*/
+    padding: 40px;/*superior izquierda abajo derecha*/
 }
 /*.experiencia .row div
 {
@@ -98,6 +98,22 @@ h1
     background-color: purple;
     border: 3px solid orange;
 }*//* borde de experiencia para marcar los bordes*/
+.experiencia .columna
+{
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+.experiencia .columna:hover
+{
+    color:white;
+    background-color: #1b1b32;
+
+}
 .experiencia i 
 {
    font-size: 2.5rem;
@@ -112,8 +128,17 @@ h1
     font-weight: bold;
     margin: 10px 0;
 }
+.badges-contenedor
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.badges
+{
+    margin: 5px;
 
-
+}
 
 /* Adaptable (Responsivo) */
 
