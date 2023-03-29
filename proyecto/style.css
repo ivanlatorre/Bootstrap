@@ -194,7 +194,7 @@ h1
     color: black;
     font-size: 60px;
     margin: 10px;
-    
+
 }
 
 /* Adaptable (Responsivo) */
@@ -212,6 +212,16 @@ h1
     .hero-inferior-imagen
     {
        max-width: 600px; 
+    }
+}
+@media screen and (max-width:400px){
+    .overlay p {
+        font-size: 18px;
+
+    }
+    .overlay i {
+        font-size: 40px;
+        
     }
 }
 
