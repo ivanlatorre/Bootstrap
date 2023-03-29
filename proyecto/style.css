@@ -52,6 +52,12 @@ h1
 {
    font-size: 1.2rem;
 }
+.btn-info{
+    font-size: 1.1rem;
+    margin: 20px;
+    /* font-weight: bold; */
+
+}
 .texto-negro{
     color: black;
 }
@@ -221,8 +227,8 @@ h1
     }
     .overlay i {
         font-size: 40px;
-        
+
     }
 }
 
-/* 3:35:34 google fonts*/
+/* 4:02:55 */
