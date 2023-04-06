@@ -267,6 +267,55 @@ h1
     color: #656060;
 
 }
+/* contacto */
+.contacto .container{
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+.contacto .rectangulo{
+    margin-top: -5rem;
+    background-color: rgb(13,110, 253);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+.contacto .row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.contacto .descripcion {
+    color: aliceblue;
+    font-size: 1.2rem;
+
+}
+.contacto button{
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25rem 2rem;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+.contacto button:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.contacto button i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+.contacto button:hover i{
+    color: black; 
+ }
+
+
+
 /* Adaptable (Responsivo) */
 
 /* menu navbar */
